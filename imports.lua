@@ -123,16 +123,9 @@ if (ENV.ESX) then
             end
         end
 
-        AddEventHandler("onResourceStart", function(resourceName) -- HOT RELOAD SUPPORT
-            if (resourceName == GetCurrentResourceName()) then
-
-                if (type(ESX.GetPlayerData()) == "table") then
-                    ESX.PlayerData = ESX.GetPlayerData();
-                end
-
-            end
-
-        end);
+        if (type(ESX.GetPlayerData()) == "table") then
+            ESX.PlayerData = ESX.GetPlayerData();
+        end
 
         RegisterNetEvent("esx:playerLoaded", function(xPlayer)
 
@@ -168,6 +161,7 @@ end
 ENV.require({ 
 
     'system/uuid.lua',
+    'system/Value.lua',
     'system/class.lua' 
 
 });
@@ -188,7 +182,8 @@ ENV.require({
     'classes/Game/Vectors/Vector4.lua',
     'classes/Game/Vectors/Rotation.lua',
     'classes/Game/Vectors/Direction.lua',
-    'classes/Game/Marker.lua',
+    'classes/Game/Markers/Marker.lua',
+    'classes/Game/Markers/MarkerCircle.lua',
 
     'classes/EventEmitter.lua',
     'classes/Color.lua',

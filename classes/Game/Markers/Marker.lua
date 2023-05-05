@@ -30,11 +30,10 @@ local _DrawMarker = DrawMarker;
 ---@field public textureDict string
 ---@field public textureName string
 ---@field public drawOnEnts boolean
----@overload fun(id: number, eMarkerType: eMarkerType, position: Vector3, direction: Direction, rotation: Rotation, scale: Scale, color: Color, bobUpAndDown: boolean, faceCamera: boolean, rotate: boolean, textureDict: string, textureName: string, drawOnEnts: boolean): Marker
+---@overload fun(eMarkerType: eMarkerType, position: Vector3, direction: Direction, rotation: Rotation, scale: Scale, color: Color, bobUpAndDown: boolean, faceCamera: boolean, rotate: boolean, textureDict: string, textureName: string, drawOnEnts: boolean): Marker
 Marker = Class.new 'Marker';
 
 ---@private
----@param id number
 ---@param eMarkerType eMarkerType
 ---@param position Vector3
 ---@param direction Direction
@@ -47,9 +46,9 @@ Marker = Class.new 'Marker';
 ---@param textureDict string
 ---@param textureName string
 ---@param drawOnEnts boolean
-function Marker:Constructor(id, eMarkerType, position, direction, rotation, scale, color, bobUpAndDown, faceCamera, rotate, textureDict, textureName, drawOnEnts)
+function Marker:Constructor(eMarkerType, position, direction, rotation, scale, color, bobUpAndDown, faceCamera, rotate, textureDict, textureName, drawOnEnts)
 
-    self.id = id;
+    self.id = -1;
     self.type = eMarkerType;
     self.position = position;
     self.direction = direction;
