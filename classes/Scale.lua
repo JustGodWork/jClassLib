@@ -26,9 +26,14 @@ Scale = Class.new 'Scale';
 ---@param z number
 function Scale:Constructor(x, y, z)
 
-    self.x = math.round(x, 2);
-    self.y = math.round(y, 2);
-    self.z = math.round(z, 2);
+    self.x = type(x) == "number" and math.round(x, 2) or 0.0;
+    self.y = type(y) == "number" and math.round(y, 2) or 0.0;
+    self.z = type(z) == "number" and math.round(z, 2) or 0.0;
+
+    local metatable = getmetatable(self);
+    metatable.__tostring = function()
+        return string.format("Scale(%s, %s, %s)", self.x, self.y, self.z);
+    end
     
 end
 

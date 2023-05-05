@@ -18,7 +18,7 @@
 ---@field public y number
 ---@field public z number
 ---@overload fun(x: number, y: number, z: number): Rotation
----@overload fun(): Rotation
+---@overload fun(): Rotation: Vector3
 Rotation = Class.extends('Rotation', 'Vector3');
 
 ---@private

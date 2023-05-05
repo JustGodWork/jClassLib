@@ -16,15 +16,19 @@
 ---@class eEvents
 eEvents = {
 
-    ---```Client Event: (jZoneLib:Add)```
-    Add = "jZoneLib:Add",
-    ---```Client Event: (jZoneLib:Start)```
-    Start = "jZoneLib:Start",
-    ---```Client Event: (jZoneLib:Stop)```
-    Stop = "jZoneLib:Stop",
-    ---```Client Event: (jZoneLib:Remove)```
-    Purge = "jZoneLib:Purge",
-    ---```Client Event: (jZoneLib:Update)```
-    Update = "jZoneLib:Update",
+    ZoneLib = {
+
+        ---```Client Event: (jZoneLib:Add)```
+        Add = "jZoneLib:Add",
+        ---```Client Event: (jZoneLib:Start)```
+        Start = "jZoneLib:Start",
+        ---```Client Event: (jZoneLib:Stop)```
+        Stop = "jZoneLib:Stop",
+        ---```Client Event: (jZoneLib:Remove)```
+        Purge = "jZoneLib:Purge",
+        ---```Client Event: (jZoneLib:Update)```
+        Update = "jZoneLib:Update",
+
+    };
 
 };
