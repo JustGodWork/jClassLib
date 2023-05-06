@@ -169,33 +169,6 @@ if (ENV.ESX) then
             ESX.PlayerData = ESX.GetPlayerData();
         end
 
-        RegisterNetEvent("esx:playerLoaded", function(xPlayer)
-
-            local resource = GetInvokingResource();
-            if (resource ~= nil) then return; end; -- PREVENT CHEATER CALLING THIS EVENT
-
-            ESX.PlayerData = xPlayer;
-
-        end);
-        
-        RegisterNetEvent("esx:setJob", function(job)
-
-            local resource = GetInvokingResource();
-            if (resource ~= nil) then return; end; -- PREVENT CHEATER CALLING THIS EVENT
-
-            ESX.PlayerData.job = job;
-
-        end);
-
-        RegisterNetEvent("esx:setJob2", function(job2)
-
-            local resource = GetInvokingResource();
-            if (resource ~= nil) then return; end; -- PREVENT CHEATER CALLING THIS EVENT
-
-            ESX.PlayerData.job2 = job2;
-
-        end);
-
     end
 
 end
