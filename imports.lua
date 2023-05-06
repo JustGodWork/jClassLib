@@ -13,6 +13,7 @@
 ----
 --]]
 
+jLib = {};
 ENV = {};
 ENV.lib_name = 'jClassLib';
 ENV.DEBUG = GetConvar('jClassLib_DEBUG', 'false') == 'true';
@@ -163,6 +164,12 @@ ENV.require({
     'system/uuid.lua',
     'system/Value.lua',
     'system/class.lua' 
+
+});
+
+ENV.require({
+
+    'lib/functions/pausemenu.lua'
 
 });
 

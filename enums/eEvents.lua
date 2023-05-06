@@ -42,6 +42,15 @@ eEvents = {
         Purge = "jBlipLib:Purge",
         ---```Client Event: (jBlipLib:Update)```
         Update = "jBlipLib:Update",
+        ---```Client Event: (jBlipLib:Display) BLIP INFO```
+        Display = "jBlipLib:Display",
+        ---```Client Event: (jBlipLib:Clear) BLIP INFO```
+        Clear = "jBlipLib:Clear",
+
+    },
+    Game = {
+
+        PauseMenuToggle = "jClassLib:PauseMenuToggle",
 
     }
 
