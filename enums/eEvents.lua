@@ -29,6 +29,20 @@ eEvents = {
         ---```Client Event: (jZoneLib:Update)```
         Update = "jZoneLib:Update",
 
-    };
+    },
+    BlipLib = {
+
+        ---```Client Event: (jBlipLib:Add)```
+        Add = "jBlipLib:Add",
+        ---```Client Event: (jBlipLib:Start)```
+        Show = "jBlipLib:Show",
+        ---```Client Event: (jBlipLib:Stop)```
+        Hide = "jBlipLib:Hide",
+        ---```Client Event: (jBlipLib:Remove)```
+        Purge = "jBlipLib:Purge",
+        ---```Client Event: (jBlipLib:Update)```
+        Update = "jBlipLib:Update",
+
+    }
 
 };

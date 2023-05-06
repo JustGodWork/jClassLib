@@ -169,7 +169,9 @@ ENV.require({
 ENV.require({
 
     'enums/eEvents.lua',
-    'enums/eMarkerType.lua'
+    'enums/eMarkerType.lua',
+    'enums/eBlipSprite.lua',
+    'enums/eBlipColor.lua',
 
 });
 
