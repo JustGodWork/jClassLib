@@ -83,7 +83,7 @@ local function IsModLua(modname)
     return true;
 end
 
----@param modname string
+---@param modname string | table
 ---@param resource string
 ---@return any
 function ENV.require(modname, resource)
@@ -160,6 +160,10 @@ end
 
 ENV.require({ 
 
+    'system/utils/math.lua',
+    'system/utils/string.lua',
+    'system/utils/table.lua',
+
     'system/uuid.lua',
     'system/Value.lua',
     'system/class.lua' 
@@ -176,8 +180,6 @@ ENV.require({
 });
 
 ENV.require({
-
-    'classes/math.lua',
 
     'classes/Game/Vectors/Vector2.lua',
     'classes/Game/Vectors/Vector3.lua',
