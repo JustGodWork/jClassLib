@@ -28,6 +28,8 @@ eEvents = {
         Purge = "jZoneLib:Purge",
         ---```Client Event: (jZoneLib:Update)```
         Update = "jZoneLib:Update",
+        ---```Client Event: (jZoneLib:UpdateSingle)```
+        UpdateSingle = "jZoneLib:UpdateSingle",
 
     },
     BlipLib = {
