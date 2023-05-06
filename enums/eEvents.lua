@@ -42,6 +42,8 @@ eEvents = {
         Purge = "jBlipLib:Purge",
         ---```Client Event: (jBlipLib:Update)```
         Update = "jBlipLib:Update",
+        ---```Client Event: (jBlipLib:UpdateSingle)```
+        UpdateSingle = "jBlipLib:UpdateSingle",
 
     }
 
