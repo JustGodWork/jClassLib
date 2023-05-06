@@ -13,6 +13,7 @@
 ----
 --]]
 
+jCLib = {};
 ENV = {};
 ENV.lib_name = 'jClassLib';
 ENV.DEBUG = GetConvar('jClassLib_DEBUG', 'false') == 'true';
@@ -112,8 +113,49 @@ end
 ENV.require 'system/console.lua';
 
 if (ENV.ESX) then
-
     ENV.require('imports.lua', ENV.ESX_NAME);
+end
+
+ENV.require({ 
+
+    'system/utils/math.lua',
+    'system/utils/string.lua',
+    'system/utils/table.lua',
+
+    'system/uuid.lua',
+    'system/Value.lua',
+    'system/class.lua' 
+
+});
+
+ENV.require({
+
+    'enums/eEvents.lua',
+    'enums/eMarkerType.lua',
+    'enums/eBlipSprite.lua',
+    'enums/eBlipColor.lua',
+
+});
+
+ENV.require({
+
+    'classes/Game/Vectors/Vector2.lua',
+    'classes/Game/Vectors/Vector3.lua',
+    'classes/Game/Vectors/Vector4.lua',
+    'classes/Game/Vectors/Rotation.lua',
+    'classes/Game/Vectors/Direction.lua',
+    'classes/Game/Markers/Marker.lua',
+    'classes/Game/Markers/MarkerCircle.lua',
+
+    'classes/EventEmitter.lua',
+    'classes/Color.lua',
+    'classes/Scale.lua',
+
+});
+
+jCLib.events = EventEmitter();
+
+if (ENV.ESX) then
 
     if (not ENV.IS_SERVER) then
 
@@ -157,40 +199,3 @@ if (ENV.ESX) then
     end
 
 end
-
-ENV.require({ 
-
-    'system/utils/math.lua',
-    'system/utils/string.lua',
-    'system/utils/table.lua',
-
-    'system/uuid.lua',
-    'system/Value.lua',
-    'system/class.lua' 
-
-});
-
-ENV.require({
-
-    'enums/eEvents.lua',
-    'enums/eMarkerType.lua',
-    'enums/eBlipSprite.lua',
-    'enums/eBlipColor.lua',
-
-});
-
-ENV.require({
-
-    'classes/Game/Vectors/Vector2.lua',
-    'classes/Game/Vectors/Vector3.lua',
-    'classes/Game/Vectors/Vector4.lua',
-    'classes/Game/Vectors/Rotation.lua',
-    'classes/Game/Vectors/Direction.lua',
-    'classes/Game/Markers/Marker.lua',
-    'classes/Game/Markers/MarkerCircle.lua',
-
-    'classes/EventEmitter.lua',
-    'classes/Color.lua',
-    'classes/Scale.lua',
-
-});

@@ -191,6 +191,11 @@ function BaseObject:new(...)
     return class_instance(self, ...);
 end
 
+---@return string
+function BaseObject:ToString()
+    return tostring(self);
+end
+
 ---@param class? BaseObject
 ---@vararg any
 function BaseObject:super(class, ...)
