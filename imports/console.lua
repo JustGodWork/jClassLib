@@ -33,19 +33,6 @@ local logTypes = {
     ["SUCCESS"] = "^2SUCCESS",
 };
 
----@param count number
----@return string
-local function generate_tabs(count)
-    local level = count or 1;
-    local str = "";
-
-    for i = 1, level do
-        str = ("%s   "):format(str);
-    end
-
-    return str;
-end
-
 ---@private
 ---@param tbl table
 ---@param show_metatable boolean

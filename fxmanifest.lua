@@ -9,11 +9,10 @@ shared_script '@es_extended/imports.lua';
 
 files {
 
-    'system/**/*.lua',
+    'imports/**/*.lua',
     'enums/**/*.lua',
     'classes/**/*.lua',
-    'events/**/*.lua',
-    'imports.lua'
+    'init.lua'
 
 };
 

@@ -14,7 +14,7 @@
 --]]
 
 ---@return string
-function uuid()
+function jCLib.uuid()
 
     ---@type string
     local template ='xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx';
