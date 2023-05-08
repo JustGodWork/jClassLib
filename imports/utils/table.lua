@@ -31,6 +31,31 @@ function table.sizeOf(tbl)
     return size;
 end
 
+---credits to https://github.com/esx-framework/
+---@param tbl table
+---@return table
+function table.clone(tbl)
+
+    if (type(tbl) ~= 'table') then return tbl; end
+
+	local meta = getmetatable(tbl);
+	local clone = {}
+
+	for k,v in pairs(tbl) do
+
+		if (type(v) == 'table') then
+			clone[k] = table.clone(v);
+		else
+			clone[k] = v;
+		end
+
+	end
+
+	setmetatable(clone, meta);
+
+	return clone;
+end
+
 ---@param tbl table
 ---@param callback fun(key: string | number, value: any): boolean
 ---@param single boolean
@@ -61,3 +86,5 @@ end
 function table.get(tbl, key)
     return tbl[key];
 end
+
+return table;

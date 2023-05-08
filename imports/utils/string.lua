@@ -22,3 +22,5 @@ function string.split(str, sep)
     str:gsub(pattern, function(c) fields[#fields + 1] = c end)
     return fields;
 end
+
+return string;

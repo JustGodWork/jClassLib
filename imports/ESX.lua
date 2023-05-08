@@ -23,8 +23,10 @@ if (ENV.ESX) then
             end
         end
 
-        if (type(ESX.GetPlayerData()) == "table") then
-            ESX.PlayerData = ESX.GetPlayerData();
+        local playerData = ESX.GetPlayerData();
+
+        if ( table.sizeOf(playerData) > 0 ) then
+            ESX.PlayerData = playerData;
         end
 
     end

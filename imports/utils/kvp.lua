@@ -93,3 +93,43 @@ function jCLib.KVP.GetTable(key)
     local _exist = jCLib.KVP.ExistTable(key);
     return _exist and json.decode(GetResourceKvpString(FormatKey("table", key))) or {};
 end
+
+---@param key string
+function jCLib.KVP.DeleteString(key)
+    local _exist = jCLib.KVP.ExistString(key);
+    if (_exist) then
+        DeleteResourceKvp(FormatKey("string", key));
+    end
+end
+
+---@param key string
+function jCLib.KVP.DeleteInt(key)
+    local _exist = jCLib.KVP.ExistInt(key);
+    if (_exist) then
+        DeleteResourceKvp(FormatKey("int", key));
+    end
+end
+
+---@param key string
+function jCLib.KVP.DeleteBool(key)
+    local _exist = jCLib.KVP.ExistBool(key);
+    if (_exist) then
+        DeleteResourceKvp(FormatKey("bool", key));
+    end
+end
+
+---@param key string
+function jCLib.KVP.DeleteTable(key)
+    local _exist = jCLib.KVP.ExistTable(key);
+    if (_exist) then
+        DeleteResourceKvp(FormatKey("table", key));
+    end
+end
+
+---@param key string
+function jCLib.KVP.DeleteMatching(key)
+    jCLib.KVP.DeleteString(key);
+    jCLib.KVP.DeleteInt(key);
+    jCLib.KVP.DeleteBool(key);
+    jCLib.KVP.DeleteTable(key);
+end
