@@ -13,23 +13,40 @@
 ----
 --]]
 
+---<h5>Images by Nishikoto</h5>
 ---@class eBlipSprite
 eBlipSprite = {
+    ---<img src="https://docs.fivem.net/blips/radar_level.png" height="35">
     Standard = 1,
+    ---<img src="https://docs.fivem.net/blips/radar_lower.png" height="35">
     BigBlip = 2,
+    ---<img src="https://docs.fivem.net/blips/radar_police_ped.png" height="35">
     PoliceOfficer = 3,
+    ---<img src="https://docs.fivem.net/blips/radar_wanted_radius.png" height="35">
     PoliceArea = 4,
+    ---<img src="https://docs.fivem.net/blips/radar_area_blip.png" height="35">
     Square = 5,
+    ---<img src="https://docs.fivem.net/blips/radar_centre.png" height="35">
     Player = 6,
+    ---<img src="https://docs.fivem.net/blips/radar_north.png" height="35">
     North = 7,
+    ---<img src="https://docs.fivem.net/blips/radar_north.png" height="35">
     Waypoint = 8,
+    ---<img src="https://docs.fivem.net/blips/radar_radius_blip.png" height="35">
     BigCircle = 9,
+    ---<img src="https://docs.fivem.net/blips/radar_radius_outline_blip.png" height="35">
     BigCircleOutline = 10,
+    ---<img src="https://docs.fivem.net/blips/radar_weapon_higher.png" height="35">
     ArrowUpOutlined = 11,
+    ---<img src="https://docs.fivem.net/blips/radar_weapon_lower.png" height="35">
     ArrowDownOutlined = 12,
+    ---<img src="https://docs.fivem.net/blips/radar_higher_ai.png" height="35">
     ArrowUp = 13,
+    ---<img src="https://docs.fivem.net/blips/radar_lower_ai.png" height="35">
     ArrowDown = 14,
+    ---<img src="https://docs.fivem.net/blips/radar_police_heli_spin.png" height="35">
     PoliceHelicopterAnimated = 15,
+    ---<img src="https://docs.fivem.net/blips/radar_police_plane_move.png" height="35">
     Jet = 16,
     Number1 = 17,
     Number2 = 18,
@@ -41,86 +58,167 @@ eBlipSprite = {
     Number8 = 24,
     Number9 = 25,
     Number10 = 26,
+    ---<img src="https://docs.fivem.net/blips/radar_mp_crew.png" height="35">
     GTAOCrew = 27,
+    ---<img src="https://docs.fivem.net/blips/radar_mp_friendlies.png" height="35">
     GTAOFriendly = 28,
+    ---<img src="https://docs.fivem.net/blips/radar_cable_car.png" height="35">
     Lift = 36,
+    ---<img src="https://docs.fivem.net/blips/radar_raceflag.png" height="35">
     RaceFinish = 38,
+    ---<img src="https://docs.fivem.net/blips/radar_safehouse.png" height="35">
     Safehouse = 40,
+    ---<img src="https://docs.fivem.net/blips/radar_police.png" height="35">
     PoliceOfficer2 = 41,
+    ---<img src="https://docs.fivem.net/blips/radar_police_chase.png" height="35">
     PoliceCarDot = 42,
+    ---<img src="https://docs.fivem.net/blips/radar_police_heli.png" height="35">
     PoliceHelicopter = 43,
+    ---<img src="https://docs.fivem.net/blips/radar_snitch.png" height="35">
     ChatBubble = 47,
+    ---<img src="https://docs.fivem.net/blips/radar_crim_carsteal.png" height="35">
     Garage2 = 50,
+    ---<img src="https://docs.fivem.net/blips/radar_crim_drugs.png" height="35">
     Drugs = 51,
+    ---<img src="https://docs.fivem.net/blips/radar_crim_holdups.png" height="35">
     Store = 52,
+    ---<img src="https://docs.fivem.net/blips/radar_cop_patrol.png" height="35">
     PoliceCar = 56,
+    ---<img src="https://docs.fivem.net/blips/radar_crim_wanted.png" height="35">
     PolicePlayer = 58,
+    ---<img src="https://docs.fivem.net/blips/radar_police_station.png" height="35">
     PoliceStation = 60,
+    ---<img src="https://docs.fivem.net/blips/radar_hospital.png" height="35">
     Hospital = 61,
+    ---<img src="https://docs.fivem.net/blips/radar_helicopter.png" height="35">
     Helicopter = 64,
     StrangersAndFreaks = 65,
+    ---<img src="https://docs.fivem.net/blips/radar_random_character.png" height="35">
     ArmoredTruck = 66,
+    ---<img src="https://docs.fivem.net/blips/radar_security_van.png" height="35">
+    SecurityVan = 67
+    ---<img src="https://docs.fivem.net/blips/radar_tow_truck.png" height="35">
     TowTruck = 68,
+    ---<img src="https://docs.fivem.net/blips/radar_barber.png" height="35">
     Barber = 71,
+    ---<img src="https://docs.fivem.net/blips/radar_car_mod_shop.png" height="35">
     LosSantosCustoms = 72,
+    ---<img src="https://docs.fivem.net/blips/radar_clothes_store.png" height="35">
     Clothes = 73,
+    ---<img src="https://docs.fivem.net/blips/radar_tattoo.png" height="35">
     TattooParlor = 75,
+    ---<img src="https://docs.fivem.net/blips/radar_armenian_family.png" height="35">
     Simeon = 76,
+    ---<img src="https://docs.fivem.net/blips/radar_lester_family.png" height="35">
     Lester = 77,
+    ---<img src="https://docs.fivem.net/blips/radar_michael_family.png" height="35">
     Michael = 78,
+    ---<img src="https://docs.fivem.net/blips/radar_trevor_family.png" height="35">
     Trevor = 79,
+    ---<img src="https://docs.fivem.net/blips/radar_rampage.png" height="35">
     Rampage = 84,
+    ---<img src="https://docs.fivem.net/blips/radar_vinewood_tours.png" height="35">
     VinewoodTours = 85,
+    ---<img src="https://docs.fivem.net/blips/radar_lamar_family.png" height="35">
     Lamar = 86,
+    ---<img src="https://docs.fivem.net/blips/radar_franklin_family.png" height="35">
     Franklin = 88,
+    ---<img src="https://docs.fivem.net/blips/https://docs.fivem.net/blips/radar_chinese_strand.png.png" height="35">
     Chinese = 89,
+    ---<img src="https://docs.fivem.net/blips/radar_flight_school.png" height="35">
     Airport = 90,
+    ---<img src="https://docs.fivem.net/blips/radar_bar.png" height="35">
     Bar = 93,
+    ---<img src="https://docs.fivem.net/blips/radar_base_jump.png" height="35">
     BaseJump = 94,
+    ---<img src="https://docs.fivem.net/blips/radar_biolab_heist.png" height="35">
     CarWash = 100,
+    ---<img src="https://docs.fivem.net/blips/radar_comedy_club.png" height="35">
     ComedyClub = 102,
+    ---<img src="https://docs.fivem.net/blips/radar_darts.png" height="35">
     Dart = 103,
+    ---<img src="https://docs.fivem.net/blips/radar_fbi_officers_strand.png" height="35">
     FIB = 106,
+    ---<img src="https://docs.fivem.net/blips/radar_financier_strand.png" height="35">
     DollarSign = 108,
+    ---<img src="https://docs.fivem.net/blips/radar_golf.png" height="35">
     Golf = 109,
+    ---<img src="https://docs.fivem.net/blips/radar_gun_shop.png" height="35">
     AmmuNation = 110,
+    ---<img src="https://docs.fivem.net/blips/radar_michael_family_exile.png" height="35">
     Exile = 112,
+    ---<img src="https://docs.fivem.net/blips/radar_shooting_range.png" height="35">
     ShootingRange = 119,
+    ---<img src="https://docs.fivem.net/blips/radar_solomon_strand.png" height="35">
     Solomon = 120,
+    ---<img src="https://docs.fivem.net/blips/radar_strip_club.png" height="35">
     StripClub = 121,
+    ---<img src="https://docs.fivem.net/blips/radar_tennis.png" height="35">
     Tennis = 122,
+    ---<img src="https://docs.fivem.net/blips/radar_triathlon.png" height="35">
     Triathlon = 126,
+    ---<img src="https://docs.fivem.net/blips/radar_off_road_racing.png" height="35">
     OffRoadRaceFinish = 127,
+    ---<img src="https://docs.fivem.net/blips/radar_crim_cuff_keys.png" height="35">
     Key = 134,
+    ---<img src="https://docs.fivem.net/blips/radar_cinema.png" height="35">
     MovieTheater = 135,
+    ---<img src="https://docs.fivem.net/blips/radar_music_venue.png" height="35">
     Music = 136,
+    ---<img src="https://docs.fivem.net/blips/radar_weed_stash.png" height="35">
     Marijuana = 140,
+    ---<img src="https://docs.fivem.net/blips/radar_hunting.png" height="35">
     Hunting = 141,
+    ---<img src="https://docs.fivem.net/blips/radar_arms_dealing.png" height="35">
     ArmsTraffickingGround = 147,
+    ---<img src="https://docs.fivem.net/blips/radar_celebrity_theft.png" height="35">
     Nigel = 149,
+    ---<img src="https://docs.fivem.net/blips/radar_weapon_assault_rifle.png" height="35">
     AssaultRifle = 150,
+    ---<img src="https://docs.fivem.net/blips/radar_weapon_bat.png" height="35">
     Bat = 151,
+    ---<img src="https://docs.fivem.net/blips/radar_weapon_grenade.png" height="35">
     Grenade = 152,
+    ---<img src="https://docs.fivem.net/blips/radar_weapon_health.png" height="35">
     Health = 153,
+    ---<img src="https://docs.fivem.net/blips/radar_weapon_knife.png" height="35">
     Knife = 154,
+    ---<img src="https://docs.fivem.net/blips/radar_weapon_molotov.png" height="35">
     Molotov = 155,
+    ---<img src="https://docs.fivem.net/blips/radar_weapon_pistol.png" height="35">
     Pistol = 156,
+    ---<img src="https://docs.fivem.net/blips/radar_weapon_rocket.png" height="35">
     RPG = 157,
+    ---<img src="https://docs.fivem.net/blips/radar_weapon_shotgun.png" height="35">
     Shotgun = 158,
+    ---<img src="https://docs.fivem.net/blips/radar_weapon_smg.png" height="35">
     SMG = 159,
+    ---<img src="https://docs.fivem.net/blips/radar_weapon_sniper.png" height="35">
     Sniper = 160,
+    ---<img src="https://docs.fivem.net/blips/radar_mp_noise.png" height="35">
     SonicWave = 161,
+    ---<img src="https://docs.fivem.net/blips/radar_poi.png" height="35">
     PointOfInterest = 162,
+    ---<img src="https://docs.fivem.net/blips/radar_passive.png" height="35">
     GTAOPassive = 163,
+    ---<img src="https://docs.fivem.net/blips/radar_usingmenu.png" height="35">
     GTAOUsingMenu = 164,
+    ---<img src="https://docs.fivem.net/blips/radar_gang_cops_partner.png" height="35">
     Link = 171,
+    ---<img src="https://docs.fivem.net/blips/radar_weapon_minigun.png" height="35">
     Minigun = 173,
     GrenadeLauncher = 174,
+    ---<img src="https://docs.fivem.net/blips/radar_weapon_armour.png" height="35">
     Armor = 175,
+    ---<img src="https://docs.fivem.net/blips/radar_property_takeover.png" height="35">
     Castle = 176,
+    ---<img src="https://docs.fivem.net/blips/radar_camera.png" height="35">
     Camera = 184,
+    ---<img src="https://docs.fivem.net/blips/radar_handcuffs_closed_bikers.png" height="35">
     Handcuffs = 188,
+    ---<img src="https://docs.fivem.net/blips/radar_yoga.png" height="35">
     Yoga = 197,
+    ---<img src="https://docs.fivem.net/blips/radar_taxi.png" height="35">
     Cab = 198,
     Number11 = 199,
     Number12 = 200,
@@ -128,508 +226,1056 @@ eBlipSprite = {
     Number14 = 202,
     Number15 = 203,
     Number16 = 204,
+    ---<img src="https://docs.fivem.net/blips/radar_shrink.png" height="35">
     Shrink = 205,
+    ---<img src="https://docs.fivem.net/blips/radar_epsilon.png" height="35">
     Epsilon = 206,
+    ---<img src="https://docs.fivem.net/blips/radar_gang_vehicle.png" height="35">
     PersonalVehicleCar = 225,
+    ---<img src="https://docs.fivem.net/blips/radar_gang_vehicle_bikers.png" height="35">
     PersonalVehicleBike = 226,
+    ---<img src="https://docs.fivem.net/blips/radar_custody_bikers.png" height="35">
     Custody = 237,
+    ---<img src="https://docs.fivem.net/blips/radar_arms_dealing_air.png" height="35">
     ArmsTraffickingAir = 251,
+    ---<img src="https://docs.fivem.net/blips/radar_playerstate_partner.png" height="35">
     Fairground = 266,
+    ---<img src="https://docs.fivem.net/blips/radar_property.png" height="35">
     PropertyManagement = 267,
+    ---<img src="https://docs.fivem.net/blips/radar_altruist.png" height="35">
     Altruist = 269,
+    ---<img src="https://docs.fivem.net/blips/radar_ai.png" height="35">
     Enemy = 270,
+    ---<img src="https://docs.fivem.net/blips/radar_chop.png" height="35">
     Chop = 273,
+    ---<img src="https://docs.fivem.net/blips/radar_dead.png" height="35">
     Dead = 274,
+    ---<img src="https://docs.fivem.net/blips/radar_hooker.png" height="35">
     Hooker = 279,
+    ---<img src="https://docs.fivem.net/blips/radar_friend.png" height="35">
     Friend = 280,
+    ---<img src="https://docs.fivem.net/blips/radar_bounty_hit.png" height="35">
     BountyHit = 303,
+    ---<img src="https://docs.fivem.net/blips/radar_ugc_mission.png" height="35">
     GTAOMission = 304,
+    ---<img src="https://docs.fivem.net/blips/radar_horde.png" height="35">
     GTAOSurvival = 305,
+    ---<img src="https://docs.fivem.net/blips/radar_cratedrop.png" height="35">
     CrateDrop = 306,
+    ---<img src="https://docs.fivem.net/blips/radar_plane_drop.png" height="35">
     PlaneDrop = 307,
+    ---<img src="https://docs.fivem.net/blips/radar_sub.png" height="35">
     Sub = 308,
+    ---<img src="https://docs.fivem.net/blips/radar_race.png" height="35">
     Race = 309,
+    ---<img src="https://docs.fivem.net/blips/radar_deathmatch.png" height="35">
     Deathmatch = 310,
+    ---<img src="https://docs.fivem.net/blips/radar_arm_wrestling.png" height="35">
     ArmWrestling = 311,
+    ---<img src="https://docs.fivem.net/blips/radar_shootingrange_gunshop.png" height="35">
     AmmuNationShootingRange = 313,
+    ---<img src="https://docs.fivem.net/blips/radar_race_air.png" height="35">
     RaceAir = 314,
+    ---<img src="https://docs.fivem.net/blips/radar_race_land.png" height="35">
     RaceCar = 315,
+    ---<img src="https://docs.fivem.net/blips/radar_race_sea.png" height="35">
     RaceSea = 316,
+    ---<img src="https://docs.fivem.net/blips/radar_garbage.png" height="35">
     GarbageTruck = 318,
+    ---<img src="https://docs.fivem.net/blips/radar_property_for_sale.png" height="35">
     SafehouseForSale = 350,
+    ---<img src="https://docs.fivem.net/blips/radar_gang_attack_package.png" height="35">
     Package = 351,
+    ---<img src="https://docs.fivem.net/blips/radar_martin_madrazzo.png" height="35">
     MartinMadrazo = 352,
+    ---<img src="https://docs.fivem.net/blips/radar_enemy_heli_spin.png" height="35">
     EnemyHelicopter = 353,
+    ---<img src="https://docs.fivem.net/blips/radar_boost.png" height="35">
     Boost = 354,
+    ---<img src="https://docs.fivem.net/blips/radar_devin.png" height="35">
     Devin = 355,
+    ---<img src="https://docs.fivem.net/blips/radar_dock.png" height="35">
     Marina = 356,
+    ---<img src="https://docs.fivem.net/blips/radar_garage.png" height="35">
     Garage = 357,
+    ---<img src="https://docs.fivem.net/blips/radar_golf_flag.png" height="35">
     GolfFlag = 358,
+    ---<img src="https://docs.fivem.net/blips/radar_hangar.png" height="35">
     Hangar = 359,
+    ---<img src="https://docs.fivem.net/blips/radar_helipad.png" height="35">
     Helipad = 360,
+    ---<img src="https://docs.fivem.net/blips/radar_jerry_can.png" height="35">
     JerryCan = 361,
+    ---<img src="https://docs.fivem.net/blips/radar_mask.png" height="35">
     Masks = 362,
+    ---<img src="https://docs.fivem.net/blips/radar_heist_prep.png" height="35">
     HeistSetup = 363,
+    ---<img src="https://docs.fivem.net/blips/radar_incapacitated.png" height="35">
     Incapacitated = 364,
+    ---<img src="https://docs.fivem.net/blips/radar_spawn_point_pickup.png" height="35">
     PickupSpawn = 365,
+    ---<img src="https://docs.fivem.net/blips/radar_boilersuit.png" height="35">
     BoilerSuit = 366,
+    ---<img src="https://docs.fivem.net/blips/radar_completed.png" height="35">
     Completed = 367,
+    ---<img src="https://docs.fivem.net/blips/radar_completed.png" height="35">
     Rockets = 368,
+    ---<img src="https://docs.fivem.net/blips/radar_garage_for_sale.png" height="35">
     GarageForSale = 369,
+    ---<img src="https://docs.fivem.net/blips/radar_helipad_for_sale.png" height="35">
     HelipadForSale = 370,
+    ---<img src="https://docs.fivem.net/blips/radar_dock_for_sale.png" height="35">
     MarinaForSale = 371,
+    ---<img src="https://docs.fivem.net/blips/radar_hangar_for_sale.png" height="35">
     HangarForSale = 372,
+    ---<img src="https://docs.fivem.net/blips/radar_business.png" height="35">
     Business = 374,
+    ---<img src="https://docs.fivem.net/blips/radar_business_for_sale.png" height="35">
     BusinessForSale = 375,
+    ---<img src="https://docs.fivem.net/blips/radar_business_for_sale.png" height="35">
     RaceBike = 376,
+    ---<img src="https://docs.fivem.net/blips/radar_parachute.png" height="35">
     Parachute = 377,
+    ---<img src="https://docs.fivem.net/blips/radar_team_deathmatch.png" height="35">
     TeamDeathmatch = 378,
+    ---<img src="https://docs.fivem.net/blips/radar_race_foot.png" height="35">
     RaceFoot = 379,
+    ---<img src="https://docs.fivem.net/blips/radar_vehicle_deathmatch.png" height="35">
     VehicleDeathmatch = 380,
+    ---<img src="https://docs.fivem.net/blips/radar_barry.png" height="35">
     Barry = 381,
+    ---<img src="https://docs.fivem.net/blips/radar_dom.png" height="35">
     Dom = 382,
+    ---<img src="https://docs.fivem.net/blips/radar_maryann.png" height="35">
     MaryAnn = 383,
+    ---<img src="https://docs.fivem.net/blips/radar_maryann.png" height="35">
     Cletus = 384,
+    ---<img src="https://docs.fivem.net/blips/radar_josh.png" height="35">
     Josh = 385,
+    ---<img src="https://docs.fivem.net/blips/386.png" height="35">
     Minute = 386,
+    ---<img src="https://docs.fivem.net/blips/radar_omega.png" height="35">
     Omega = 387,
+    ---<img src="https://docs.fivem.net/blips/radar_tonya.png" height="35">
     Tonya = 388,
+    ---<img src="https://docs.fivem.net/blips/radar_paparazzo.png" height="35">
     Paparazzo = 389,
+    ---<img src="https://docs.fivem.net/blips/radar_aim.png" height="35">
     Crosshair = 390,
+    ---<img src="https://docs.fivem.net/blips/radar_creator.png" height="35">
     Creator = 398,
+    ---<img src="https://docs.fivem.net/blips/radar_creator_direction.png" height="35">
     CreatorDirection = 399,
+    ---<img src="https://docs.fivem.net/blips/radar_abigail.png" height="35">
     Abigail = 400,
+    ---<img src="https://docs.fivem.net/blips/radar_blimp.png" height="35">
     Blimp = 401,
+    ---<img src="https://docs.fivem.net/blips/radar_repair.png" height="35">
     Repair = 402,
+    ---<img src="https://docs.fivem.net/blips/radar_testosterone.png" height="35">
     Testosterone = 403,
+    ---<img src="https://docs.fivem.net/blips/radar_dinghy.png" height="35">
     Dinghy = 404,
+    ---<img src="https://docs.fivem.net/blips/radar_fanatic.png" height="35">
     Fanatic = 405,
+    ---<img src="https://docs.fivem.net/blips/radar_info_icon.png" height="35">
     Information = 407,
+    ---<img src="https://docs.fivem.net/blips/radar_capture_the_flag.png" height="35">
     CaptureBriefcase = 408,
+    ---<img src="https://docs.fivem.net/blips/radar_last_team_standing.png" height="35">
     LastTeamStanding = 409,
+    ---<img src="https://docs.fivem.net/blips/radar_boat.png" height="35">
     Boat = 410,
+    ---<img src="https://docs.fivem.net/blips/radar_capture_the_flag_base.png" height="35">
     CaptureHouse = 411,
+    ---<img src="https://docs.fivem.net/blips/radar_weapon_jerrycan.png" height="35">
     JerryCan2 = 415,
+    ---<img src="https://docs.fivem.net/blips/radar_rp.png" height="35">
     RP = 416,
+    ---<img src="https://docs.fivem.net/blips/radar_level_inside.png" height="35">
     GTAOPlayerSafehouse = 417,
+    ---<img src="https://docs.fivem.net/blips/radar_bounty_hit_inside.png" height="35">
     GTAOPlayerSafehouseDead = 418,
+    ---<img src="https://docs.fivem.net/blips/radar_capture_the_usaflag.png" height="35">
     CaptureAmericanFlag = 419,
+    ---<img src="https://docs.fivem.net/blips/radar_capture_the_usaflag_outline.png" height="35">
     CaptureFlag = 420,
+    ---<img src="https://docs.fivem.net/blips/radar_tank.png" height="35">
     Tank = 421,
+    ---<img src="https://docs.fivem.net/blips/radar_player_heli.png" height="35">
     HelicopterAnimated = 422,
+    ---<img src="https://docs.fivem.net/blips/radar_player_plane.png" height="35">
     Plane = 423,
+    ---<img src="https://docs.fivem.net/blips/radar_centre_stroke.png" height="35">
     PlayerNoColor = 425,
+    ---<img src="https://docs.fivem.net/blips/radar_player_guncar.png" height="35">
     GunCar = 426,
+    ---<img src="https://docs.fivem.net/blips/radar_player_boat.png" height="35">
     Speedboat = 427,
+    ---<img src="https://docs.fivem.net/blips/radar_mp_heist.png" height="35">
     Heist = 428,
+    ---<img src="https://docs.fivem.net/blips/radar_temp_2.png" height="35">
     Stopwatch = 430,
+    ---<img src="https://docs.fivem.net/blips/radar_temp_3.png" height="35">
     DollarSignCircled = 431,
+    ---<img src="https://docs.fivem.net/blips/radar_temp_4.png" height="35">
     Crosshair2 = 432,
+    ---<img src="https://docs.fivem.net/blips/radar_temp_6.png" height="35">
     DollarSignSquared = 434,
+    ---<img src="https://docs.fivem.net/blips/radar_race_stunt.png" height="35">
+    RaceStunt = 435,
+    ---<img src="https://docs.fivem.net/blips/radar_hot_property.png" height="35">
+    HotProperty = 436,
+    ---<img src="https://docs.fivem.net/blips/radar_urbanwarfare_versus.png" height="35">
+    UrbanWwarfare = 437,
+    ---<img src="https://docs.fivem.net/blips/radar_player_king.png" height="35">
+    PlayerKing = 439,
+    ---<img src="https://docs.fivem.net/blips/radar_dead_drop.png" height="35">
+    DeadDrop = 440,
+    ---<img src="https://docs.fivem.net/blips/radar_penned_in.png" height="35">
+    PennedIn = 441,
+    ---<img src="https://docs.fivem.net/blips/radar_beast.png" height="35">
+    Beast = 442,
+    ---<img src="https://docs.fivem.net/blips/radar_edge_crosstheline.png" height="35">
+    EdgeCrossLine = 444,
+    ---<img src="https://docs.fivem.net/blips/radar_mp_lamar.png" height="35">
+    LamarDavis = 445,
+    ---<img src="https://docs.fivem.net/blips/radar_bennys.png" height="35">
+    Bennys = 446,
+    ---<img src="https://docs.fivem.net/blips/radar_yacht.png" height="35">
+    Yatch = 455,
+    ---<img src="https://docs.fivem.net/blips/radar_hunt_the_boss.png" height="35">
+    HuntBoss = 458,
+    ---<img src="https://docs.fivem.net/blips/radar_sightseer.png" height="35">
+    SightSeer = 459,
+    ---<img src="https://docs.fivem.net/blips/radar_turreted_limo.png" height="35">
+    TurretedLimo = 460,
+    ---<img src="https://docs.fivem.net/blips/radar_pickup_slow_time.png" height="35">
+    PickupSlowTime = 466,
+    ---<img src="https://docs.fivem.net/blips/radar_pickup_swap.png" height="35">
+    PickupSwap = 467,
+    ---<img src="https://docs.fivem.net/blips/radar_pickup_weed.png" height="35">
+    PickupWeed = 469,
+    ---<img src="https://docs.fivem.net/blips/radar_weapon_railgun.png" height="35">
+    Railgun = 470,
+    ---<img src="https://docs.fivem.net/blips/radar_seashark.png" height="35">
+    Seashark = 471,
+    ---<img src="https://docs.fivem.net/blips/radar_pickup_hidden.png" height="35">
+    PickupHidden = 472,
+    ---<img src="https://docs.fivem.net/blips/radar_warehouse.png" height="35">
+    Warehouse = 473,
+    ---<img src="https://docs.fivem.net/blips/radar_warehouse_for_sale.png" height="35">
+    WarehouseForSale = 474,
+    ---<img src="https://docs.fivem.net/blips/radar_office.png" height="35">
+    Office = 475,
+    ---<img src="https://docs.fivem.net/blips/radar_office_for_sale.png" height="35">
+    OfficeForSale = 476,
+    ---<img src="https://docs.fivem.net/blips/radar_truck.png" height="35">
+    Truck = 477,
+    ---<img src="https://docs.fivem.net/blips/radar_contraband.png" height="35">
     CeoCrate = 478,
+    ---<img src="https://docs.fivem.net/blips/radar_trailer.png" height="35">
     RadarTrailer = 479,
+    ---<img src="https://docs.fivem.net/blips/radar_vip.png" height="35">
     RadarVIP = 480,
+    ---<img src="https://docs.fivem.net/blips/radar_cargobob.png" height="35">
     RadarCarJob = 481,
+    ---<img src="https://docs.fivem.net/blips/radar_area_outline_blip.png" height="35">
     RadarAreaOutline = 482,
+    ---<img src="https://docs.fivem.net/blips/radar_pickup_accelerator.png" height="35">
     RadarPickup = 483,
+    ---<img src="https://docs.fivem.net/blips/radar_pickup_ghost.png" height="35">
     RadarPickupGhost = 484,
+    ---<img src="https://docs.fivem.net/blips/radar_pickup_detonator.png" height="35">
     RadarPickupDetonation = 485,
+    ---<img src="https://docs.fivem.net/blips/radar_pickup_bomb.png" height="35">
     RadarPickupBomb = 486,
+    ---<img src="https://docs.fivem.net/blips/radar_pickup_armoured.png" height="35">
     RadarPickupArmor = 487,
+    ---<img src="https://docs.fivem.net/blips/radar_stunt.png" height="35">
     RadarStunt = 488,
+    ---<img src="https://docs.fivem.net/blips/radar_weapon_lives.png" height="35">
     RadarWeaponLives = 489,
+    ---<img src="https://docs.fivem.net/blips/radar_stunt_premium.png" height="35">
     RadarStuntPremium = 490,
+    ---<img src="https://docs.fivem.net/blips/radar_adversary.png" height="35">
     RadarAdversary = 491,
+    ---<img src="https://docs.fivem.net/blips/radar_biker_clubhouse.png" height="35">
     RadarBikerClubHouse = 492,
+    ---<img src="https://docs.fivem.net/blips/radar_biker_caged_in.png" height="35">
     RadarBikerCagedIn = 493,
+    ---<img src="https://docs.fivem.net/blips/radar_biker_turf_war.png" height="35">
     RadarBikerTurfWar = 494,
+    ---<img src="https://docs.fivem.net/blips/radar_biker_joust.png" height="35">
     RadarBikerJoust = 495,
+    ---<img src="https://docs.fivem.net/blips/radar_production_weed.png" height="35">
     RadarProductionWeed = 496,
+    ---<img src="https://docs.fivem.net/blips/radar_production_crack.png" height="35">
     RadarProductionCrack = 497,
+    ---<img src="https://docs.fivem.net/blips/radar_production_fake_id.png" height="35">
     RadarProductionFakeID = 498,
+    ---<img src="https://docs.fivem.net/blips/radar_production_meth.png" height="35">
     RadarProductionMeth = 499,
+    ---<img src="https://docs.fivem.net/blips/radar_production_money.png" height="35">
     RadarProductionMoney = 500,
+    ---<img src="https://docs.fivem.net/blips/radar_production_money.png" height="35">
     RadarPackage = 501,
+    ---<img src="https://docs.fivem.net/blips/radar_capture_1.png" height="35">
     RadarCapture1 = 502,
+    ---<img src="https://docs.fivem.net/blips/radar_capture_2.png" height="35">
     RadarCapture2 = 503,
+    ---<img src="https://docs.fivem.net/blips/radar_capture_3.png" height="35">
     RadarCapture3 = 504,
+    ---<img src="https://docs.fivem.net/blips/radar_capture_4.png" height="35">
     RadarCapture4 = 505,
+    ---<img src="https://docs.fivem.net/blips/radar_capture_5.png" height="35">
     RadarCapture5 = 506,
+    ---<img src="https://docs.fivem.net/blips/radar_capture_6.png" height="35">
     RadarCapture6 = 507,
+    ---<img src="https://docs.fivem.net/blips/radar_capture_7.png" height="35">
     RadarCapture7 = 508,
+    ---<img src="https://docs.fivem.net/blips/radar_capture_8.png" height="35">
     RadarCapture8 = 509,
+    ---<img src="https://docs.fivem.net/blips/radar_capture_9.png" height="35">
     RadarCapture9 = 510,
+    ---<img src="https://docs.fivem.net/blips/radar_capture_10.png" height="35">
     RadarCapture10 = 511,
+    ---<img src="https://docs.fivem.net/blips/radar_quad.png" height="35">
     RadarQuad = 512,
+    ---<img src="https://docs.fivem.net/blips/radar_bus.png" height="35">
     RadarBus = 513,
+    ---<img src="https://docs.fivem.net/blips/radar_drugs_package.png" height="35">
     RadarDrugsPackage = 514,
+    ---<img src="https://docs.fivem.net/blips/radar_pickup_jump.png" height="35">
     RadarPickupJump = 515,
+    ---<img src="https://docs.fivem.net/blips/radar_adversary_4.png" height="35">
     RadarAdversary4 = 516,
+    ---<img src="https://docs.fivem.net/blips/radar_adversary_8.png" height="35">
     RadarAdversary8 = 517,
+    ---<img src="https://docs.fivem.net/blips/radar_adversary_10.png" height="35">
     RadarAdversary10 = 518,
+    ---<img src="https://docs.fivem.net/blips/radar_adversary_12.png" height="35">
     RadarAdversary12 = 519,
+    ---<img src="https://docs.fivem.net/blips/radar_adversary_16.png" height="35">
     RadarAdversary16 = 520,
+    ---<img src="https://docs.fivem.net/blips/radar_laptop.png" height="35">
     RadarLaptop = 521,
+    ---<img src="https://docs.fivem.net/blips/radar_pickup_deadline.png" height="35">
     RadarPickupDeadline = 522,
+    ---<img src="https://docs.fivem.net/blips/radar_sports_car.png" height="35">
     RadarSportsCar = 523,
+    ---<img src="https://docs.fivem.net/blips/radar_warehouse_vehicle.png" height="35">
     RadarWarehouseVehicle = 524,
+    ---<img src="https://docs.fivem.net/blips/radar_reg_papers.png" height="35">
     RadarRegPapers = 525,
+    ---<img src="https://docs.fivem.net/blips/radar_police_station_dropoff.png" height="35">
     RadarPoliceStationDropoff = 526,
+    ---<img src="https://docs.fivem.net/blips/radar_junkyard.png" height="35">
     RadarJunkyard = 527,
+    ---<img src="https://docs.fivem.net/blips/radar_ex_vech_1.png" height="35">
     RadarExVech1 = 528,
+    ---<img src="https://docs.fivem.net/blips/radar_ex_vech_2.png" height="35">
     RadarExVech2 = 529,
+    ---<img src="https://docs.fivem.net/blips/radar_ex_vech_3.png" height="35">
     RadarExVech3 = 530,
+    ---<img src="https://docs.fivem.net/blips/radar_ex_vech_4.png" height="35">
     RadarExVech4 = 531,
+    ---<img src="https://docs.fivem.net/blips/radar_ex_vech_5.png" height="35">
     RadarExVech5 = 532,
+    ---<img src="https://docs.fivem.net/blips/radar_ex_vech_6.png" height="35">
     RadarExVech6 = 533,
+    ---<img src="https://docs.fivem.net/blips/radar_ex_vech_7.png" height="35">
     RadarExVech7 = 534,
+    ---<img src="https://docs.fivem.net/blips/radar_target_a.png" height="35">
     RadarTargetA = 535,
+    ---<img src="https://docs.fivem.net/blips/radar_target_b.png" height="35">
     RadarTargetB = 536,
+    ---<img src="https://docs.fivem.net/blips/radar_target_c.png" height="35">
     RadarTargetC = 537,
+    ---<img src="https://docs.fivem.net/blips/radar_target_d.png" height="35">
     RadarTargetD = 538,
+    ---<img src="https://docs.fivem.net/blips/radar_target_e.png" height="35">
     RadarTargetE = 539,
+    ---<img src="https://docs.fivem.net/blips/radar_target_f.png" height="35">
     RadarTargetF = 540,
+    ---<img src="https://docs.fivem.net/blips/radar_target_g.png" height="35">
     RadarTargetG = 541,
+    ---<img src="https://docs.fivem.net/blips/radar_target_h.png" height="35">
     RadarTargetH = 542,
+    ---<img src="https://docs.fivem.net/blips/radar_jugg.png" height="35">
     RadarJugg = 543,
+    ---<img src="https://docs.fivem.net/blips/radar_pickup_repair.png" height="35">
     RadarPickupRepair = 544,
+    ---<img src="https://docs.fivem.net/blips/radar_steeringwheel.png" height="35">
     RadarSteeringWheel = 545,
+    ---<img src="https://docs.fivem.net/blips/radar_trophy.png" height="35">
     RadarTrophy = 546,
+    ---<img src="https://docs.fivem.net/blips/radar_pickup_rocket_boost.png" height="35">
     RadarPickupRocketBoost = 547,
+    ---<img src="https://docs.fivem.net/blips/radar_pickup_homing_rocket.png" height="35">
     RadarPickupHomingRocket = 548,
+    ---<img src="https://docs.fivem.net/blips/radar_pickup_machinegun.png" height="35">
     RadarPickupMachinegun = 549,
+    ---<img src="https://docs.fivem.net/blips/radar_pickup_parachute.png" height="35">
     RadarPickupParachute = 550,
+    ---<img src="https://docs.fivem.net/blips/radar_pickup_time_5.png" height="35">
     RadarPickupTime5 = 551,
+    ---<img src="https://docs.fivem.net/blips/radar_pickup_time_10.png" height="35">
     RadarPickupTime10 = 552,
+    ---<img src="https://docs.fivem.net/blips/radar_pickup_time_15.png" height="35">
     RadarPickupTime15 = 553,
+    ---<img src="https://docs.fivem.net/blips/radar_pickup_time_20.png" height="35">
     RadarPickupTime20 = 554,
+    ---<img src="https://docs.fivem.net/blips/radar_pickup_time_30.png" height="35">
     RadarPickupTime30 = 555,
+    ---<img src="https://docs.fivem.net/blips/radar_supplies.png" height="35">
     RadarSupplies = 556,
+    ---<img src="https://docs.fivem.net/blips/radar_property_bunker.png" height="35">
     RadarPropertyBunker = 557,
+    ---<img src="https://docs.fivem.net/blips/radar_gr_wvm_1.png" height="35">
     RadarGrWvm1 = 558,
+    ---<img src="https://docs.fivem.net/blips/radar_gr_wvm_2.png" height="35">
     RadarGrWvm2 = 559,
+    ---<img src="https://docs.fivem.net/blips/radar_gr_wvm_3.png" height="35">
     RadarGrWvm3 = 560,
+    ---<img src="https://docs.fivem.net/blips/radar_gr_wvm_4.png" height="35">
     RadarGrWvm4 = 561,
+    ---<img src="https://docs.fivem.net/blips/radar_gr_wvm_5.png" height="35">
     RadarGrWvm5 = 562,
+    ---<img src="https://docs.fivem.net/blips/radar_gr_wvm_6.png" height="35">
     RadarGrWvm6 = 563,
+    ---<img src="https://docs.fivem.net/blips/radar_gr_covert_ops.png" height="35">
     RadarGrCovertOps = 564,
+    ---<img src="https://docs.fivem.net/blips/radar_adversary_bunker.png" height="35">
     RadarAdversaryBunker = 565,
+    ---<img src="https://docs.fivem.net/blips/radar_gr_moc_upgrade.png" height="35">
     RadarGrMocUpgrade = 566,
+    ---<img src="https://docs.fivem.net/blips/radar_gr_w_upgrade.png" height="35">
     RadarGrWUpgrade = 567,
+    ---<img src="https://docs.fivem.net/blips/radar_sm_cargo.png" height="35">
     RadarSmCargo = 568,
+    ---<img src="https://docs.fivem.net/blips/radar_sm_hangar.png" height="35">
     RadarSmHangar = 569,
+    ---<img src="https://docs.fivem.net/blips/radar_tf_checkpoint.png" height="35">
     RadarTfCheckpoint = 570,
+    ---<img src="https://docs.fivem.net/blips/radar_race_tf.png" height="35">
     RadarRaceTf = 571,
+    ---<img src="https://docs.fivem.net/blips/radar_sm_wp1.png" height="35">
     RadarSmWp1 = 572,
+    ---<img src="https://docs.fivem.net/blips/radar_sm_wp2.png" height="35">
     RadarSmWp2 = 573,
+    ---<img src="https://docs.fivem.net/blips/radar_sm_wp3.png" height="35">
     RadarSmWp3 = 574,
+    ---<img src="https://docs.fivem.net/blips/radar_sm_wp4.png" height="35">
     RadarSmWp4 = 575,
+    ---<img src="https://docs.fivem.net/blips/radar_sm_wp5.png" height="35">
     RadarSmWp5 = 576,
+    ---<img src="https://docs.fivem.net/blips/radar_sm_wp6.png" height="35">
     RadarSmWp6 = 577,
+    ---<img src="https://docs.fivem.net/blips/radar_sm_wp7.png" height="35">
     RadarSmWp7 = 578,
+    ---<img src="https://docs.fivem.net/blips/radar_sm_wp8.png" height="35">
     RadarSmWp8 = 579,
+    ---<img src="https://docs.fivem.net/blips/radar_sm_wp9.png" height="35">
     RadarSmWp9 = 580,
+    ---<img src="https://docs.fivem.net/blips/radar_sm_wp10.png" height="35">
     RadarSmWp10 = 581,
+    ---<img src="https://docs.fivem.net/blips/radar_sm_wp11.png" height="35">
     RadarSmWp11 = 582,
+    ---<img src="https://docs.fivem.net/blips/radar_sm_wp12.png" height="35">
     RadarSmWp12 = 583,
+    ---<img src="https://docs.fivem.net/blips/radar_sm_wp13.png" height="35">
     RadarSmWp13 = 584,
+    ---<img src="https://docs.fivem.net/blips/radar_sm_wp14.png" height="35">
     RadarSmWp14 = 585,
+    ---<img src="https://docs.fivem.net/blips/radar_nhp_bag.png" height="35">
     RadarNhpBag = 586,
+    ---<img src="https://docs.fivem.net/blips/radar_nhp_chest.png" height="35">
     RadarNhpChest = 587,
+    ---<img src="https://docs.fivem.net/blips/radar_nhp_orbit.png" height="35">
     RadarNhpOrbit = 588,
+    ---<img src="https://docs.fivem.net/blips/radar_nhp_veh1.png" height="35">
     RadarNhpVeh1 = 589,
+    ---<img src="https://docs.fivem.net/blips/radar_nhp_base.png" height="35">
     RadarNhpBase = 590,
+    ---<img src="https://docs.fivem.net/blips/radar_nhp_overlay.png" height="35">
     RadarNhpOverlay = 591,
+    ---<img src="https://docs.fivem.net/blips/radar_nhp_turret.png" height="35">
     RadarNhpTurret = 592,
+    ---<img src="https://docs.fivem.net/blips/radar_nhp_mg_firewall.png" height="35">
     RadarNhpMgFirewall = 593,
+    ---<img src="https://docs.fivem.net/blips/radar_nhp_mg_node.png" height="35">
     RadarNhpMgNode = 594,
+    ---<img src="https://docs.fivem.net/blips/radar_nhp_wp1.png" height="35">
     RadarNhpWp1 = 595,
+    ---<img src="https://docs.fivem.net/blips/radar_nhp_wp2.png" height="35">
     RadarNhpWp2 = 596,
+    ---<img src="https://docs.fivem.net/blips/radar_nhp_wp3.png" height="35">
     RadarNhpWp3 = 597,
+    ---<img src="https://docs.fivem.net/blips/radar_nhp_wp4.png" height="35">
     RadarNhpWp4 = 598,
+    ---<img src="https://docs.fivem.net/blips/radar_nhp_wp5.png" height="35">
     RadarNhpWp5 = 599,
+    ---<img src="https://docs.fivem.net/blips/radar_nhp_wp6.png" height="35">
     RadarNhpWp6 = 600,
+    ---<img src="https://docs.fivem.net/blips/radar_nhp_wp7.png" height="35">
     RadarNhpWp7 = 601,
+    ---<img src="https://docs.fivem.net/blips/radar_nhp_wp8.png" height="35">
     RadarNhpWp8 = 602,
+    ---<img src="https://docs.fivem.net/blips/radar_nhp_wp9.png" height="35">
     RadarNhpWp9 = 603,
+    ---<img src="https://docs.fivem.net/blips/radar_nhp_cctv.png" height="35">
     RadarNhpCctv = 604,
+    ---<img src="https://docs.fivem.net/blips/radar_nhp_starterpack.png" height="35">
     RadarNhpStarterpack = 605,
+    ---<img src="https://docs.fivem.net/blips/radar_nhp_turret_console.png" height="35">
     RadarNhpTurretConsole = 606,
+    ---<img src="https://docs.fivem.net/blips/radar_nhp_mg_mir_rotate.png" height="35">
     RadarNhpMgMirRotate = 607,
+    ---<img src="https://docs.fivem.net/blips/radar_nhp_mg_mir_static.png" height="35">
     RadarNhpMgMirStatic = 608,
+    ---<img src="https://docs.fivem.net/blips/radar_nhp_mg_proxy.png" height="35">
     RadarNhpMgProxy = 609,
+    ---<img src="https://docs.fivem.net/blips/radar_acsr_race_target.png" height="35">
     RadarAcsrRaceTarget = 610,
+    ---<img src="https://docs.fivem.net/blips/radar_acsr_race_hotring.png" height="35">
     RadarAcsrRaceHotring = 611,
+    ---<img src="https://docs.fivem.net/blips/radar_acsr_wp1.png" height="35">
     RadarAcsrWp1 = 612,
+    ---<img src="https://docs.fivem.net/blips/radar_acsr_wp2.png" height="35">
     RadarAcsrWp2 = 613,
+    ---<img src="https://docs.fivem.net/blips/radar_bat_club_property.png" height="35">
     RadarBatClubProperty = 614,
+    ---<img src="https://docs.fivem.net/blips/radar_bat_cargo.png" height="35">
     RadarBatCargo = 615,
+    ---<img src="https://docs.fivem.net/blips/radar_bat_truck.png" height="35">
     RadarBatTruck = 616,
+    ---<img src="https://docs.fivem.net/blips/radar_bat_hack_jewel.png" height="35">
     RadarBatHackJewel = 617,
+    ---<img src="https://docs.fivem.net/blips/radar_bat_hack_gold.png" height="35">
     RadarBatHackGold = 618,
+    ---<img src="https://docs.fivem.net/blips/radar_bat_keypad.png" height="35">
     RadarBatKeypad = 619,
+    ---<img src="https://docs.fivem.net/blips/radar_bat_hack_target.png" height="35">
     RadarBatHackTarget = 620,
+    ---<img src="https://docs.fivem.net/blips/radar_pickup_dtb_health.png" height="35">
     RadarPickupDtbHealth = 621,
+    ---<img src="https://docs.fivem.net/blips/radar_pickup_dtb_blast_increase.png" height="35">
     RadarPickupDtbBlastIncrease = 622,
+    ---<img src="https://docs.fivem.net/blips/radar_pickup_dtb_blast_decrease.png" height="35">
     RadarPickupDtbBlastDecrease = 623,
+    ---<img src="https://docs.fivem.net/blips/radar_pickup_dtb_bomb_increase.png" height="35">
     RadarPickupDtbBombIncrease = 624,
+    ---<img src="https://docs.fivem.net/blips/radar_pickup_dtb_bomb_decrease.png" height="35">
     RadarPickupDtbBombDecrease = 625,
+    ---<img src="https://docs.fivem.net/blips/radar_bat_rival_club.png" height="35">
     RadarBatRivalClub = 626,
+    ---<img src="https://docs.fivem.net/blips/radar_bat_drone.png" height="35">
     RadarBatDrone = 627,
+    ---<img src="https://docs.fivem.net/blips/radar_bat_cash_reg.png" height="35">
     RadarBatCashReg = 628,
+    ---<img src="https://docs.fivem.net/blips/radar_cctv.png" height="35">
     RadarCCTV = 629,
+    ---<img src="https://docs.fivem.net/blips/radar_bat_assassinate.png" height="35">
     RadarBatAssassinate = 630,
+    ---<img src="https://docs.fivem.net/blips/radar_bat_pbus.png" height="35">
     RadarBatPBus = 631,
+    ---<img src="https://docs.fivem.net/blips/radar_bat_wp1.png" height="35">
     RadarBatWp1 = 632,
+    ---<img src="https://docs.fivem.net/blips/radar_bat_wp2.png" height="35">
     RadarBatWp2 = 633,
+    ---<img src="https://docs.fivem.net/blips/radar_bat_wp3.png" height="35">
     RadarBatWp3 = 634,
+    ---<img src="https://docs.fivem.net/blips/radar_bat_wp4.png" height="35">
     RadarBatWp4 = 635,
+    ---<img src="https://docs.fivem.net/blips/radar_bat_wp5.png" height="35">
     RadarBatWp5 = 636,
+    ---<img src="https://docs.fivem.net/blips/radar_bat_wp6.png" height="35">
     RadarBatWp6 = 637,
+    ---<img src="https://docs.fivem.net/blips/radar_blimp_2.png" height="35">
     RadarBlimp2 = 638,
+    ---<img src="https://docs.fivem.net/blips/radar_oppressor_2.png" height="35">
     RadarOppressor2 = 639,
+    ---<img src="https://docs.fivem.net/blips/radar_bat_wp7.png" height="35">
     RadarBatWp7 = 640,
+    ---<img src="https://docs.fivem.net/blips/radar_arena_series.png" height="35">
     RadarArenaSeries = 641,
+    ---<img src="https://docs.fivem.net/blips/radar_arena_premium.png" height="35">
     RadarArenaPremium = 642,
+    ---<img src="https://docs.fivem.net/blips/radar_arena_workshop.png" height="35">
     RadarArenaWorkshop = 643,
+    ---<img src="https://docs.fivem.net/blips/radar_race_wars.png" height="35">
     RadarRaceWars = 644,
+    ---<img src="https://docs.fivem.net/blips/radar_arena_turret.png" height="35">
     RadarArenaTurret = 645,
+    ---<img src="https://docs.fivem.net/blips/radar_arena_rc_car.png" height="35">
     RadarArenaRcCar = 646,
+    ---<img src="https://docs.fivem.net/blips/radar_arena_rc_workshop.png" height="35">
     RadarArenaRcWorkshop = 647,
+    ---<img src="https://docs.fivem.net/blips/radar_arena_trap_fire.png" height="35">
     RadarArenaTrapFire = 648,
+    ---<img src="https://docs.fivem.net/blips/radar_arena_trap_flip.png" height="35">
     RadarArenaTrapFlip = 649,
+    ---<img src="https://docs.fivem.net/blips/radar_arena_trap_sea.png" height="35">
     RadarArenaTrapSea = 650,
+    ---<img src="https://docs.fivem.net/blips/radar_arena_trap_turn.png" height="35">
     RadarArenaTrapTurn = 651,
+    ---<img src="https://docs.fivem.net/blips/radar_arena_trap_pit.png" height="35">
     RadarArenaTrapPit = 652,
+    ---<img src="https://docs.fivem.net/blips/radar_arena_trap_mine.png" height="35">
     RadarArenaTrapMine = 653,
+    ---<img src="https://docs.fivem.net/blips/radar_arena_trap_bomb.png" height="35">
     RadarArenaTrapBomb = 654,
+    ---<img src="https://docs.fivem.net/blips/radar_arena_trap_wall.png" height="35">
     RadarArenaTrapWall = 655,
+    ---<img src="https://docs.fivem.net/blips/radar_arena_trap_brd.png" height="35">
     RadarArenaTrapBrd = 656,
+    ---<img src="https://docs.fivem.net/blips/radar_arena_trap_sbrd.png" height="35">
     RadarArenaTrapSbrd = 657,
+    ---<img src="https://docs.fivem.net/blips/radar_arena_bruiser.png" height="35">
     RadarArenaBruiser = 658,
+    ---<img src="https://docs.fivem.net/blips/radar_arena_brutus.png" height="35">
     RadarArenaBrutus = 659,
+    ---<img src="https://docs.fivem.net/blips/radar_arena_cerberus.png" height="35">
     RadarArenaCerberus = 660,
+    ---<img src="https://docs.fivem.net/blips/radar_arena_deathbike.png" height="35">
     RadarArenaDeathbike = 661,
+    ---<img src="https://docs.fivem.net/blips/radar_arena_dominator.png" height="35">
     RadarArenaDominator = 662,
+    ---<img src="https://docs.fivem.net/blips/radar_arena_impaler.png" height="35">
     RadarArenaImpaler = 663,
+    ---<img src="https://docs.fivem.net/blips/radar_arena_imperator.png" height="35">
     RadarArenaImperator = 664,
+    ---<img src="https://docs.fivem.net/blips/radar_arena_issi.png" height="35">
     RadarArenaIssi = 665,
+    ---<img src="https://docs.fivem.net/blips/radar_arena_sasquatch.png" height="35">
     RadarArenaSasquatch = 666,
+    ---<img src="https://docs.fivem.net/blips/radar_arena_sasquatch.png" height="35">
     RadarArenaScarab = 667,
+    ---<img src="https://docs.fivem.net/blips/radar_arena_slamvan.png" height="35">
     RadarArenaSlamvan = 668,
+    ---<img src="https://docs.fivem.net/blips/radar_arena_zr380.png" height="35">
     RadarArenaZr380 = 669,
+    ---<img src="https://docs.fivem.net/blips/radar_ap.png" height="35">
     RadarAP = 670,
+    ---<img src="https://docs.fivem.net/blips/radar_comic_store.png" height="35">
     RadarComicStore = 671,
+    ---<img src="https://docs.fivem.net/blips/radar_cop_car.png" height="35">
     RadarCopCar = 672,
+    ---<img src="https://docs.fivem.net/blips/radar_rc_time_trials.png" height="35">
     RadarRcTimeTrials = 673,
+    ---<img src="https://docs.fivem.net/blips/radar_king_of_the_hill.png" height="35">
     RadarKingOfTheHill = 674,
+    ---<img src="https://docs.fivem.net/blips/radar_king_of_the_hill_teams.png" height="35">
     RadarKingOfTheHillTeams = 675,
+    ---<img src="https://docs.fivem.net/blips/radar_rucksack.png" height="35">
     RadarRucksack = 676,
+    ---<img src="https://docs.fivem.net/blips/radar_shipping_container.png" height="35">
     RadarShippingContainer = 677,
+    ---<img src="https://docs.fivem.net/blips/radar_agatha.png" height="35">
     RadarAgatha = 678,
+    ---<img src="https://docs.fivem.net/blips/radar_casino.png" height="35">
     RadarCasino = 679,
+    ---<img src="https://docs.fivem.net/blips/radar_casino_table_games.png" height="35">
     RadarCasinoTableGames = 680,
+    ---<img src="https://docs.fivem.net/blips/radar_casino_wheel.png" height="35">
     RadarCasinoWheel = 681,
+    ---<img src="https://docs.fivem.net/blips/radar_casino_concierge.png" height="35">
     RadarCasinoConcierge = 682,
+    ---<img src="https://docs.fivem.net/blips/radar_casino_chips.png" height="35">
     RadarCasinoChips = 683,
+    ---<img src="https://docs.fivem.net/blips/radar_casino_horse_racing.png" height="35">
     RadarCasinoHorseRacing = 684,
+    ---<img src="https://docs.fivem.net/blips/radar_adversary_featured.png" height="35">
     RadarAdversaryFeatured = 685,
+    ---<img src="https://docs.fivem.net/blips/radar_roulette_1.png" height="35">
     RadarRoulette1 = 686,
+    ---<img src="https://docs.fivem.net/blips/radar_roulette_2.png" height="35">
     RadarRoulette2 = 687,
+    ---<img src="https://docs.fivem.net/blips/radar_roulette_3.png" height="35">
     RadarRoulette3 = 688,
+    ---<img src="https://docs.fivem.net/blips/radar_roulette_4.png" height="35">
     RadarRoulette4 = 689,
+    ---<img src="https://docs.fivem.net/blips/radar_roulette_5.png" height="35">
     RadarRoulette5 = 690,
+    ---<img src="https://docs.fivem.net/blips/radar_roulette_6.png" height="35">
     RadarRoulette6 = 691,
+    ---<img src="https://docs.fivem.net/blips/radar_roulette_7.png" height="35">
     RadarRoulette7 = 692,
+    ---<img src="https://docs.fivem.net/blips/radar_roulette_8.png" height="35">
     RadarRoulette8 = 693,
+    ---<img src="https://docs.fivem.net/blips/radar_roulette_9.png" height="35">
     RadarRoulette9 = 694,
+    ---<img src="https://docs.fivem.net/blips/radar_roulette_10.png" height="35">
     RadarRoulette10 = 695,
+    ---<img src="https://docs.fivem.net/blips/radar_roulette_11.png" height="35">
     RadarRoulette11 = 696,
+    ---<img src="https://docs.fivem.net/blips/radar_roulette_12.png" height="35">
     RadarRoulette12 = 697,
+    ---<img src="https://docs.fivem.net/blips/radar_roulette_13.png" height="35">
     RadarRoulette13 = 698,
+    ---<img src="https://docs.fivem.net/blips/radar_roulette_14.png" height="35">
     RadarRoulette14 = 699,
+    ---<img src="https://docs.fivem.net/blips/radar_roulette_15.png" height="35">
     RadarRoulette15 = 700,
+    ---<img src="https://docs.fivem.net/blips/radar_roulette_16.png" height="35">
     RadarRoulette16 = 701,
+    ---<img src="https://docs.fivem.net/blips/radar_roulette_17.png" height="35">
     RadarRoulette17 = 702,
+    ---<img src="https://docs.fivem.net/blips/radar_roulette_18.png" height="35">
     RadarRoulette18 = 703,
+    ---<img src="https://docs.fivem.net/blips/radar_roulette_19.png" height="35">
     RadarRoulette19 = 704,
+    ---<img src="https://docs.fivem.net/blips/radar_roulette_20.png" height="35">
     RadarRoulette20 = 705,
+    ---<img src="https://docs.fivem.net/blips/radar_roulette_21.png" height="35">
     RadarRoulette21 = 706,
+    ---<img src="https://docs.fivem.net/blips/radar_roulette_22.png" height="35">
     RadarRoulette22 = 707,
+    ---<img src="https://docs.fivem.net/blips/radar_roulette_23.png" height="35">
     RadarRoulette23 = 708,
+    ---<img src="https://docs.fivem.net/blips/radar_roulette_24.png" height="35">
     RadarRoulette24 = 709,
+    ---<img src="https://docs.fivem.net/blips/radar_roulette_25.png" height="35">
     RadarRoulette25 = 710,
+    ---<img src="https://docs.fivem.net/blips/radar_roulette_26.png" height="35">
     RadarRoulette26 = 711,
+    ---<img src="https://docs.fivem.net/blips/radar_roulette_27.png" height="35">
     RadarRoulette27 = 712,
+    ---<img src="https://docs.fivem.net/blips/radar_roulette_28.png" height="35">
     RadarRoulette28 = 713,
+    ---<img src="https://docs.fivem.net/blips/radar_roulette_29.png" height="35">
     RadarRoulette29 = 714,
+    ---<img src="https://docs.fivem.net/blips/radar_roulette_30.png" height="35">
     RadarRoulette30 = 715,
+    ---<img src="https://docs.fivem.net/blips/radar_roulette_31.png" height="35">
     RadarRoulette31 = 716,
+    ---<img src="https://docs.fivem.net/blips/radar_roulette_32.png" height="35">
     RadarRoulette32 = 717,
+    ---<img src="https://docs.fivem.net/blips/radar_roulette_33.png" height="35">
     RadarRoulette33 = 718,
+    ---<img src="https://docs.fivem.net/blips/radar_roulette_34.png" height="35">
     RadarRoulette34 = 719,
+    ---<img src="https://docs.fivem.net/blips/radar_roulette_35.png" height="35">
     RadarRoulette35 = 720,
+    ---<img src="https://docs.fivem.net/blips/radar_roulette_36.png" height="35">
     RadarRoulette36 = 721,
+    ---<img src="https://docs.fivem.net/blips/radar_roulette_0.png" height="35">
     RadarRoulette0 = 722,
+    ---<img src="https://docs.fivem.net/blips/radar_roulette_00.png" height="35">
     RadarRoulette00 = 723,
+    ---<img src="https://docs.fivem.net/blips/radar_limo.png" height="35">
     RadarLimo = 724,
+    ---<img src="https://docs.fivem.net/blips/radar_weapon_alien.png" height="35">
     RadarWeaponAlien = 725,
+    ---<img src="https://docs.fivem.net/blips/radar_race_open_wheel.png" height="35">
     RadarRaceOpenWheel = 726,
+    ---<img src="https://docs.fivem.net/blips/radar_rappel.png" height="35">
     RadarRappel = 727,
+    ---<img src="https://docs.fivem.net/blips/radar_swap_car.png" height="35">
     RadarSwapCar = 728,
+    ---<img src="https://docs.fivem.net/blips/radar_scuba_gear.png" height="35">
     RadarScubaGear = 729,
+    ---<img src="https://docs.fivem.net/blips/radar_cpanel_1.png" height="35">
     RadarCPanel1 = 730,
+    ---<img src="https://docs.fivem.net/blips/radar_cpanel_2.png" height="35">
     RadarCPanel2 = 731,
+    ---<img src="https://docs.fivem.net/blips/radar_cpanel_3.png" height="35">
     RadarCPanel3 = 732,
+    ---<img src="https://docs.fivem.net/blips/radar_cpanel_4.png" height="35">
     RadarCPanel4 = 733,
+    ---<img src="https://docs.fivem.net/blips/radar_snow_truck.png" height="35">
     RadarSnowTruck = 734,
+    ---<img src="https://docs.fivem.net/blips/radar_buggy_1.png" height="35">
     RadarBuggy1 = 735,
+    ---<img src="https://docs.fivem.net/blips/radar_buggy_2.png" height="35">
     RadarBuggy2 = 736,
+    ---<img src="https://docs.fivem.net/blips/radar_zhaba.png" height="35">
     RadarZhaba = 737,
+    ---<img src="https://docs.fivem.net/blips/radar_gerald.png" height="35">
     RadarGerald = 738,
+    ---<img src="https://docs.fivem.net/blips/radar_ron.png" height="35">
     RadarRon = 739,
+    ---<img src="https://docs.fivem.net/blips/radar_arcade.png" height="35">
     RadarArcade = 740,
+    ---<img src="https://docs.fivem.net/blips/radar_drone_controls.png" height="35">
     RadarDroneControls = 741,
+    ---<img src="https://docs.fivem.net/blips/radar_rc_tank.png" height="35">
     RadarRCTank = 742,
+    ---<img src="https://docs.fivem.net/blips/radar_stairs.png" height="35">
     RadarStairs = 743,
+    ---<img src="https://docs.fivem.net/blips/radar_camera_2.png" height="35">
     RadarCamera2 = 744,
+    ---<img src="https://docs.fivem.net/blips/radar_winky.png" height="35">
     RadarWinky = 745,
+    ---<img src="https://docs.fivem.net/blips/radar_mini_sub.png" height="35">
     RadarMiniSub = 746,
+    ---<img src="https://docs.fivem.net/blips/radar_kart_retro.png" height="35">
     RadarKartRetro = 747,
+    ---<img src="https://docs.fivem.net/blips/radar_kart_modern.png" height="35">
     RadarKartModern = 748,
+    ---<img src="https://docs.fivem.net/blips/radar_military_quad.png" height="35">
     RadarMilitaryQuad = 749,
+    ---<img src="https://docs.fivem.net/blips/radar_military_truck.png" height="35">
     RadarMilitaryTruck = 750,
+    ---<img src="https://docs.fivem.net/blips/radar_ship_wheel.png" height="35">
     RadarShipWheel = 751,
+    ---<img src="https://docs.fivem.net/blips/radar_ufo.png" height="35">
     RadarUFO = 752,
+    ---<img src="https://docs.fivem.net/blips/radar_seasparrow2.png" height="35">
     RadarSeasparrow2 = 753,
+    ---<img src="https://docs.fivem.net/blips/radar_dinghy2.png" height="35">
     RadarDinghy2 = 754,
+    ---<img src="https://docs.fivem.net/blips/radar_patrol_boat.png" height="35">
     RadarPatrolBoat = 755,
+    ---<img src="https://docs.fivem.net/blips/radar_retro_sports_car.png" height="35">
     RadarRetroSportsCar = 756,
+    ---<img src="https://docs.fivem.net/blips/radar_squadee.png" height="35">
     RadarSquadee = 757,
+    ---<img src="https://docs.fivem.net/blips/radar_folding_wing_jet.png" height="35">
     RadarFoldingWingJet = 758,
+    ---<img src="https://docs.fivem.net/blips/radar_valkyrie2.png" height="35">
     RadarValkyrie2 = 759,
+    ---<img src="https://docs.fivem.net/blips/radar_sub2.png" height="35">
     RadarSub2 = 760,
+    ---<img src="https://docs.fivem.net/blips/radar_bolt_cutters.png" height="35">
     RadarBoltCutters = 761,
+    ---<img src="https://docs.fivem.net/blips/radar_rappel_gear.png" height="35">
     RadarRappelGear = 762,
+    ---<img src="https://docs.fivem.net/blips/radar_keycard.png" height="35">
     RadarKeycard = 763,
+    ---<img src="https://docs.fivem.net/blips/radar_password.png" height="35">
     RadarPassword = 764,
+    ---<img src="https://docs.fivem.net/blips/radar_island_heist_prep.png" height="35">
     RadarIslandHeistPrep = 765,
+    ---<img src="https://docs.fivem.net/blips/radar_island_heist_prep.png" height="35">
     RadarIslandParty = 766,
+    ---<img src="https://docs.fivem.net/blips/radar_control_tower.png" height="35">
     RadarControlTower = 767,
+    ---<img src="https://docs.fivem.net/blips/radar_underwater_gate.png" height="35">
     RadarUnderwaterGate = 768,
+    ---<img src="https://docs.fivem.net/blips/radar_power_switch.png" height="35">
     RadarPowerSwitch = 769,
+    ---<img src="https://docs.fivem.net/blips/radar_compound_gate.png" height="35">
     RadarCompoundGate = 770,
+    ---<img src="https://docs.fivem.net/blips/radar_rappel_point.png" height="35">
     RadarRappelPoint = 771,
+    ---<img src="https://docs.fivem.net/blips/radar_keypad.png" height="35">
     RadarKeypad = 772,
+    ---<img src="https://docs.fivem.net/blips/radar_sub_controls.png" height="35">
     RadarSubControls = 773,
+    ---<img src="https://docs.fivem.net/blips/radar_sub_periscope.png" height="35">
     RadarSubPeriscope = 774,
+    ---<img src="https://docs.fivem.net/blips/radar_sub_missile.png" height="35">
     RadarSubMissile = 775,
+    ---<img src="https://docs.fivem.net/blips/radar_painting.png" height="35">
     RadarPainting = 776,
+    ---<img src="https://docs.fivem.net/blips/radar_car_meet.png" height="35">
     RadarCarMeet = 777,
+    ---<img src="https://docs.fivem.net/blips/radar_car_test_area.png" height="35">
     RadarCarTestArea = 778,
+    ---<img src="https://docs.fivem.net/blips/radar_auto_shop_property.png" height="35">
     RadarAutoShopProperty = 779,
+    ---<img src="https://docs.fivem.net/blips/radar_docks_export.png" height="35">
     RadarDocksExport = 780,
+    ---<img src="https://docs.fivem.net/blips/radar_prize_car.png" height="35">
     RadarPrizeCar = 781,
+    ---<img src="https://docs.fivem.net/blips/radar_test_car.png" height="35">
     RadarTestCar = 782,
+    ---<img src="https://docs.fivem.net/blips/radar_car_robbery_board.png" height="35">
     RadarCarRobberyBoard = 783,
+    ---<img src="https://docs.fivem.net/blips/radar_car_robbery_prep.png" height="35">
     RadarCarRobberyPrep = 784,
+    ---<img src="https://docs.fivem.net/blips/radar_street_race_series.png" height="35">
     RadarStreetRaceSeries = 785,
+    ---<img src="https://docs.fivem.net/blips/radar_pursuit_series.png" height="35">
     RadarPursuitSeries = 786,
+    ---<img src="https://docs.fivem.net/blips/radar_car_meet_organiser.png" height="35">
     RadarCarMeetOrganiser = 787,
+    ---<img src="https://docs.fivem.net/blips/radar_securoserv.png" height="35">
     RadarSecuroServ = 788,
+    ---<img src="https://docs.fivem.net/blips/radar_bounty_collectibles.png" height="35">
     RadarBountyCollectibles = 789,
+    ---<img src="https://docs.fivem.net/blips/radar_movie_collectibles.png" height="35">
     RadarMovieCollectibles = 790,
+    ---<img src="https://docs.fivem.net/blips/radar_trailer_ramp.png" height="35">
     RadarTrailerRamp = 791,
+    ---<img src="https://docs.fivem.net/blips/radar_race_organiser.png" height="35">
     RadarRaceOrganiser = 792,
+    ---<img src="https://docs.fivem.net/blips/radar_chalkboard_list.png" height="35">
     RadarChalkboardList = 793,
+    ---<img src="https://docs.fivem.net/blips/radar_export_vehicle.png" height="35">
     RadarExportVehicle = 794,
+    ---<img src="https://docs.fivem.net/blips/radar_train.png" height="35">
     RadarTrain = 795,
+    ---<img src="https://docs.fivem.net/blips/radar_heist_diamond.png" height="35">
     RadarHeistDiamond = 796,
+    ---<img src="https://docs.fivem.net/blips/radar_heist_doomsday.png" height="35">
     RadarHeistDoomsday = 797,
+    ---<img src="https://docs.fivem.net/blips/radar_heist_island.png" height="35">
     RadarHeistIsland = 798,
+    ---<img src="https://docs.fivem.net/blips/radar_slamvan2.png" height="35">
     RadarSlamvan2 = 799,
+    ---<img src="https://docs.fivem.net/blips/radar_crusader.png" height="35">
     RadarCrusader = 800,
+    ---<img src="https://docs.fivem.net/blips/radar_construction_outfit.png" height="35">
     RadarConstructionOutfit = 801,
+    ---<img src="https://docs.fivem.net/blips/radar_overlay_jammed.png" height="35">
     RadarOverlayJammed = 802,
+    ---<img src="https://docs.fivem.net/blips/radar_heist_island_unavailable.png" height="35">
     RadarHeistIslandUnavailable = 803,
+    ---<img src="https://docs.fivem.net/blips/radar_heist_diamond_unavailable.png" height="35">
     RadarHeistDiamondUnavailable = 804,
+    ---<img src="https://docs.fivem.net/blips/radar_heist_doomsday_unavailable.png" height="35">
     RadarHeistDoomsdayUnavailable = 805,
-    RadarPlaceholder7 = 806,
-    RadarPlaceholder8 = 807,
-    RadarPlaceholder9 = 808,
+    ---<img src="https://docs.fivem.net/blips/radar_featured_series.png" height="35">
     RadarFeaturedSeries = 809,
+    ---<img src="https://docs.fivem.net/blips/radar_vehicle_for_sale.png" height="35">
     RadarVehicleForSale = 810,
+    ---<img src="https://docs.fivem.net/blips/radar_van_keys.png" height="35">
     RadarVanKeys = 811,
+    ---<img src="https://docs.fivem.net/blips/radar_suv_service.png" height="35">
     RadarSUVService = 812,
+    ---<img src="https://docs.fivem.net/blips/radar_security_contract.png" height="35">
     RadarSecurityContract = 813,
+    ---<img src="https://docs.fivem.net/blips/radar_safe.png" height="35">
     RadarSafe = 814,
+    ---<img src="https://docs.fivem.net/blips/radar_ped_r.png" height="35">
     RadarPedR = 815,
+    ---<img src="https://docs.fivem.net/blips/radar_ped_e.png" height="35">
     RadarPedE = 816,
+    ---<img src="https://docs.fivem.net/blips/radar_payphone.png" height="35">
     RadarPayphone = 817,
+    ---<img src="https://docs.fivem.net/blips/radar_patriot3.png" height="35">
     RadarPatriot3 = 818,
+    ---<img src="https://docs.fivem.net/blips/radar_music_studio.png" height="35">
     RadarMusicStudio = 819,
+    ---<img src="https://docs.fivem.net/blips/radar_jubilee.png" height="35">
     RadarJubilee = 820,
+    ---<img src="https://docs.fivem.net/blips/radar_granger2.png" height="35">
     RadarGranger2 = 821,
+    ---<img src="https://docs.fivem.net/blips/radar_explosive_charge.png" height="35">
     RadarExplosiveCharge = 822,
+    ---<img src="https://docs.fivem.net/blips/radar_deity.png" height="35">
     RadarDeity = 823,
+    ---<img src="https://docs.fivem.net/blips/radar_d_champion.png" height="35">
     RadarDChampion = 824,
+    ---<img src="https://docs.fivem.net/blips/radar_buffalo4.png" height="35">
     RadarBuffalo4 = 825,
+    ---<img src="https://docs.fivem.net/blips/radar_agency.png" height="35">
     RadarAgency = 826,
+    ---<img src="https://docs.fivem.net/blips/radar_biker_bar.png" height="35">
     RadarBikerBar = 827,
+    ---<img src="https://docs.fivem.net/blips/radar_simeon_overlay.png" height="35">
     RadarSimeonOverlay = 828,
+    ---<img src="https://docs.fivem.net/blips/radar_junk_skydive.png" height="35">
     RadarJunkSkydive = 829,
+    ---<img src="https://docs.fivem.net/blips/radar_luxury_car_showroom.png" height="35">
     RadarLuxuryCarShowroom = 830,
+    ---<img src="https://docs.fivem.net/blips/radar_car_showroom.png" height="35">
     RadarCarShowroom = 831,
+    ---<img src="https://docs.fivem.net/blips/radar_car_showroom_simeon.png" height="35">
     RadarCarShowroomSimeon = 832,
+    ---<img src="https://docs.fivem.net/blips/radar_flaming_skull.png" height="35">
     RadarFlamingSkull = 833,
+    ---<img src="https://docs.fivem.net/blips/radar_weapon_ammo.png" height="35">
     RadarWeaponAmmo = 834,
+    ---<img src="https://docs.fivem.net/blips/radar_community_series.png" height="35">
     RadarCommunitySeries = 835,
+    ---<img src="https://docs.fivem.net/blips/radar_cayo_series.png" height="35">
     RadarCayoSeries = 836,
+    ---<img src="https://docs.fivem.net/blips/radar_clubhouse_contract.png" height="35">
     RadarClubhouseContract = 837,
+    ---<img src="https://docs.fivem.net/blips/radar_agent_ulp.png" height="35">
     RadarAgentULP = 838,
+    ---<img src="https://docs.fivem.net/blips/radar_acid.png" height="35">
     RadarAcid = 839,
+    ---<img src="https://docs.fivem.net/blips/radar_acid_lab.png" height="35">
     RadarAcidLab = 840,
+    ---<img src="https://docs.fivem.net/blips/radar_dax_overlay.png" height="35">
     RadarDaxOverlay = 841,
+    ---<img src="https://docs.fivem.net/blips/radar_dead_drop_package.png" height="35">
     RadarDeadDropPackage = 842,
+    ---<img src="https://docs.fivem.net/blips/radar_downtown_cab.png" height="35">
     RadarDowntownCab = 843,
+    ---<img src="https://docs.fivem.net/blips/radar_gun_van.png" height="35">
     RadarGunVan = 844,
+    ---<img src="https://docs.fivem.net/blips/radar_stash_house.png" height="35">
     RadarStashHouse = 845,
+    ---<img src="https://docs.fivem.net/blips/radar_tractor.png" height="35">
     RadarTractor = 846,
+    ---<img src="https://docs.fivem.net/blips/radar_warehouse_juggalo.png" height="35">
     RadarWarehouseJuggalo = 847,
+    ---<img src="https://docs.fivem.net/blips/radar_warehouse_juggalo_dax.png" height="35">
     RadarWarehouseJuggaloDax = 848,
+    ---<img src="https://docs.fivem.net/blips/radar_weapon_crowbar.png" height="35">
     RadarWeaponCrowbar = 849,
+    ---<img src="https://docs.fivem.net/blips/radar_duffel_bag.png" height="35">
     RadarDuffelBag = 850,
+    ---<img src="https://docs.fivem.net/blips/radar_oil_tanker.png" height="35">
     RadarOilTanker = 851,
+    ---<img src="https://docs.fivem.net/blips/radar_acid_lab_tent.png" height="35">
     RadarAcidLabTent = 852,
+    ---<img src="https://docs.fivem.net/blips/radar_van_burrito.png" height="35">
     RadarVanBurrito = 853,
+    ---<img src="https://docs.fivem.net/blips/radar_acid_boost.png" height="35">
     RadarAcidBoost = 854,
+    ---<img src="https://docs.fivem.net/blips/radar_ped_gang_leader.png" height="35">
     RadarPedGangLeader = 855,
+    ---<img src="https://docs.fivem.net/blips/radar_multistorey_garage.png" height="35">
     RadarMultistoreyGarage = 856,
+    ---<img src="https://docs.fivem.net/blips/radar_seized_asset_sales.png" height="35">
     RadarSeizedAssetSales = 857,
+    ---<img src="https://docs.fivem.net/blips/radar_cayo_attrition.png" height="35">
     RadarCayoAttrition = 858,
+    ---<img src="https://docs.fivem.net/blips/radar_bicycle.png" height="35">
     RadarBicycle = 859,
+    ---<img src="https://docs.fivem.net/blips/radar_bicycle_trial.png" height="35">
     RadarBicycleTrial = 860,
+    ---<img src="https://docs.fivem.net/blips/radar_raiju.png" height="35">
     RadarRaiju = 861,
+    ---<img src="https://docs.fivem.net/blips/radar_conada2.png" height="35">
     RadarConada2 = 862,
+    ---<img src="https://docs.fivem.net/blips/radar_overlay_ready_for_sell.png" height="35">
     RadarOverlayReadyForSell = 863,
+    ---<img src="https://docs.fivem.net/blips/radar_overlay_missing_supplies.png" height="35">
     RadarOverlayMissingSupplies = 864,
+    ---<img src="https://docs.fivem.net/blips/radar_streamer216.png" height="35">
     RadarStreamer216 = 865,
+    ---<img src="https://docs.fivem.net/blips/radar_signal_jammer.png" height="35">
     RadarSignalJammer = 866,
+    ---<img src="https://docs.fivem.net/blips/radar_salvage_yard.png" height="35">
     RadarSalvageYard = 867,
+    ---<img src="https://docs.fivem.net/blips/radar_robbery_prep_equipment.png" height="35">
     RadarRobberyPrepEquipment = 868,
+    ---<img src="https://docs.fivem.net/blips/radar_robbery_prep_overlay.png" height="35">
     RadarRobberyPrepOverlay = 869,
+    ---<img src="https://docs.fivem.net/blips/radar_yusuf.png" height="35">
     RadarYusuf = 870,
+    ---<img src="https://docs.fivem.net/blips/radar_vincent.png" height="35">
     RadarVincent = 871,
+    ---<img src="https://docs.fivem.net/blips/radar_vinewood_garage.png" height="35">
     RadarVinewoodGarage = 872,
+    ---<img src="https://docs.fivem.net/blips/radar_lstb.png" height="35">
     RadarLSTB = 873,
+    ---<img src="https://docs.fivem.net/blips/radar_cctv_workstation.png" height="35">
     RadarCCTVWorkstation = 874,
+    ---<img src="https://docs.fivem.net/blips/radar_hacking_device.png" height="35">
     RadarHackingDevice = 875,
+    ---<img src="https://docs.fivem.net/blips/radar_race_drag.png" height="35">
     RadarRaceDrag = 876,
+    ---<img src="https://docs.fivem.net/blips/radar_race_drift.png" height="35">
     RadarRaceDrift = 877,
+    ---<img src="https://docs.fivem.net/blips/radar_casino_prep.png" height="35">
     RadarCasinoPrep = 878,
+    ---<img src="https://docs.fivem.net/blips/radar_planning_wall.png" height="35">
     RadarPlanningWall = 879,
+    ---<img src="https://docs.fivem.net/blips/radar_weapon_crate.png" height="35">
     RadarWeaponCrate = 880,
+    ---<img src="https://docs.fivem.net/blips/radar_weapon_snowball.png" height="35">
     RadarWeaponSnowball = 881,
+    ---<img src="https://docs.fivem.net/blips/radar_train_signals_green.png" height="35">
     RadarTrainSignalsGreen = 882,
+    ---<img src="https://docs.fivem.net/blips/radar_train_signals_red.png" height="35">
     RadarTrainSignalsRed = 883
 };
